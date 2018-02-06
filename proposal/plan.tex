@@ -1,3 +1,12 @@
-\section{Executive Summary}
+\section{Plan}
 
+We will follow the steps listed below in that order to reach the goals enumerated in section \ref{sec:aim}. 
 
+\begin{enumerate}
+\item We will build a test environment which is close to the real one and in which we can conduct our research with as few consequences for other users as possible.
+\item We will install an ethernet packet sniffer to listen for SIP packets. We will record all these packets, pseudonymize them and build communication profiles from them which includes: Who speaks to who and how long is each conversation. We hope to build a social graph from this data.
+\item We will modify SIP packets to hide our identity (CallID spoofing).
+\item We will impersonate a PBX (man-in-the-middle) to redirect calls and listen on fully encrypted conversations by performing a timing attack.
+\end{enumerate}
+
+Further steps and directions of this research project will be decided on the basis of the results of above experiments and in close reconciliation with the technical director. 
