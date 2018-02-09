@@ -14,36 +14,37 @@
 
 \sloppy
 
-\date{}
-
 \pagestyle{plain}
 \pagenumbering{arabic}
 
 \begin{document}
-\title{ Analyzing Voice-over-IP At UC Davis}
+\title{ Analyzing Voice-over-IP at UC Davis}
 \date{ 02/09/2018 }
 \author{Abdulhai Naqvi, Dixit Paudel, and Mark Weber\\
 University of California, Davis\\
 \{abdulhainaqvi, meondav, marweber\}@ucdavis.edu}
 
 
-\maketitle
+\begin{titlepage}
+	\maketitle
+	\input{title.tex}
+\end{titlepage}
 
-% \input{title.tex}
-% \input{motivation.tex}
-% \input{previouswork.tex}
-% \input{aims.tex}
-% \input{plan.tex}
-\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}} #1}
-\keywords{VOIP Security, Telephone Security, Internet Telephony, Computer Security}
+\input{summary.tex}
+\input{motivation.tex}
+\input{previouswork.tex}
+\input{aims.tex}
+\input{plan.tex}
 \input{deliverables.tex}
 \input{dataplan.tex}
-% \input{issues.tex}
+\input{issues.tex}
 \input{biographies.tex}
 \input{schedule.tex}
-% \input{budget.tex}
-% \input{appendixA.tex}
-% \input{impacts.tex}
+\input{budget.tex}
+\input{impacts.tex}
+
+\appendix
+\input{appendixA.tex}
 \bibliographystyle{abbrv}
 \bibliography{mybib}
 \end{document}
