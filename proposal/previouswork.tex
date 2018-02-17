@@ -1,3 +1,21 @@
 \section{Previous Work}
 
+Two papers and several RFC's are cosnidered here. The first paper discussed is \textbf{On the Feasibility of Launching the Man-In-The-Middle Attacks on VoIP from Remote Attackers} by Zhang et al.
+
+This paper discusses launching remote attacks to gain MITM access to the VoIP system.
+For our project, this would be a moonshot since it requires a lot of testing and probing to show vulnerabilities within the hardware/software clients to hijack them
+
+Given the time limit, it’s easier for us to do MITM attacks non-remotely. An example of registration hijacking, which is very practical for our purposes, is shown here (from Symantec: https://www.symantec.com/connect/articles/two-attacks-against-voip):
+
+The first paper discusses how to launch a MITM attack remotely. The remote access is gained through a vulnerability in the user client. It uses DNS spoofing to launch the actual MITM attack. This attack has two distinct parts: 1) finding a  client vulnerability and 2) launching a MITM attack. For this reason, this approach is considered more of a moonshot in that our goal is to achieve 2) within the timeframe (1 quarter or two and half months) and tacking 1) if time permits.
+
+The second source, an article by Symantec: \href{https://www.symantec.com/connect/articles/two-attacks-against-voip}{Two attacks against VoIP}, which describes registration hijacking to gain MITM access is actually closer to what we think we can achieve within the time period. Our goal is to follow a similar technique to gain MITM access.
+
+
+
+We are assuming that not implementing SIPS (SIP with TLS) is going to be a major shortcoming for the campus VoIP system. As such, we believe \href{https://tools.ietf.org/html/rfc3830}{RFC 3830 (MIKEY – Multimedia Internet Keying)}, which describes different methods of key sharing (such as pre-shared key, Diffie-Hellman, Public Key Cryptography, etc), is also an important previous work.
+In addition, the ZRTP protocol, described in \href{https://tools.ietf.org/html/rfc6189}{RFC 6189} is also a good alternative, requiring Diffie-Hellman key exchange; however, it is more computationally expensive but guarantees perfect forward secrecy.
+In addition, the overarching RFC for SIP with TLS, \href{https://tools.ietf.org/html/rfc5630}{RFC 5630}, is also important as it gives the general overview of implementing TLS with SIP.
+
+One should keep in mind, however, that TLS only provides security between nodes. It doesn’t provide security against a malicious node. For that, IPSec ( \href{https://tools.ietf.org/html/rfc6071}{RFC 6071}), which secures the underlying IP layer as opposed to the transport layer in TLS, is better suited. In addition, one could also implement tunneling of SIP over SSH or any such secure end to end protocol.
 
