@@ -2,4 +2,6 @@
 
 Because no central authority controls the how VoIP is implemented vulnerabilities related to confidentiality, integrity, and availability (CIA) arise in all potentially all protocol layers ranging from physical, internet, transport to application. \cite{mcgann}. 
 
-SIP (Session Initiation Protocol) is the application layer protocol used in VoIP here at UC Davis for signaling calls. 
+SIP (Session Initiation Protocol) is the application layer protocol used in VoIP here at UC Davis for signaling calls. The SIP specification is devoid of any security mechanism, and instead suggests importing well-known method \cite{geneiatakis2006survey}. Thus, in the absence of such a mechanism, there are possibilities of attacks such as spoofing, session hijacking, privacy, and several others.
+
+Even with security mechanisms in place, SIP based VoIP is vulnerable to DoS attacks. The flooding attack technique can be used to the various terminals in a VoIP network which includes the registrar server, the proxy server or the end-user terminal \cite{geneiatakis2006survey}. 
