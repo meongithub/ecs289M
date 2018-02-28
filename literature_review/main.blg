@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: abbrv.bst
+Database file #1: mybib.bib
+Warning--I didn't find a database entry for "keromytis2012comprehensive"
+Warning--empty institution in rfc
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            562 strings with 5266 characters,
+and the built_in function-call counts, 3234 in all, are:
+= -- 309
+> -- 148
+< -- 4
++ -- 60
+- -- 48
+* -- 218
+:= -- 542
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 54
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 132
+empty$ -- 255
+format.name$ -- 48
+if$ -- 678
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 9
+newline$ -- 53
+num.names$ -- 20
+pop$ -- 55
+preamble$ -- 1
+purify$ -- 44
+quote$ -- 0
+skip$ -- 101
+stack$ -- 0
+substring$ -- 167
+swap$ -- 32
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 1
+while$ -- 29
+width$ -- 12
+write$ -- 109
+(There were 2 warnings)
