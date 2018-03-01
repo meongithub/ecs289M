@@ -1,0 +1,58 @@
+\begin{thebibliography}{10}
+
+\bibitem{dh}
+W.~Diffie and M.~Hellman.
+\newblock New directions in cryptography.
+\newblock {\em IEEE Transactions on Information Theory}, 22(6):644--654, Nov
+  1976.
+
+\bibitem{schurman}
+S.~et~al.
+\newblock Wiretapping end-to-end encrypted voip calls: Real-world attacks on
+  zrtp.
+\newblock {\em Proceedings of Privacy Enhancing Technologies}, 2017.
+
+\bibitem{geneiatakis2006survey}
+D.~Geneiatakis, T.~Dagiuklas, G.~Kambourakis, C.~Lambrinoudakis, S.~Gritzalis,
+  K.~S. Ehlert, and D.~Sisalem.
+\newblock Survey of security vulnerabilities in session initiation protocol.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 8(3):68--81, 2006.
+
+\bibitem{vmware}
+Gupta and Shmatikov.
+\newblock Security analysis of voice-over-ip protocols.
+\newblock {\em Computer Security Foundations Symposium}, 2007.
+
+\bibitem{keromytis}
+A.~D. Keromytis.
+\newblock Voice-over-ip security: Research and practice.
+\newblock {\em IEEE Security \& Privacy}, 8(2), 2010.
+
+\bibitem{mcgann}
+S.~McGann and D.~C. Sicker.
+\newblock An analysis of security threats and tools in sip-based voip systems.
+\newblock In {\em Second VoIP security workshop}, 2005.
+
+\bibitem{voipbg}
+D.~C. Sicker and T.~Lookabaugh.
+\newblock Voip security: Not an afterthought.
+\newblock {\em Queue}, 2(6):56--64, Sept. 2004.
+
+\bibitem{srihari}
+V.~Srihari, P.~Kalpana, and R.~Anitha.
+\newblock Security aspects of sip based voip networks: A survey.
+\newblock In {\em Second International Conference on Current Trends In
+  Engineering and Technology - ICCTET 2014}, pages 143--150, July 2014.
+
+\bibitem{vuong}
+S.~Vuong and Y.~Bai.
+\newblock A survey of voip intrusions and intrusion detection systems.
+\newblock In {\em The 6th International Conference on Advanced Communication
+  Technology, 2004.}, volume~1, pages 317--322, Feb 2004.
+
+\bibitem{rfc}
+J.~Zimmerman and Callas.
+\newblock {ZRTP: Media Path Key Agreement for Unicast Secure RTP}.
+\newblock {RFC} 6189, 2011.
+
+\end{thebibliography}
