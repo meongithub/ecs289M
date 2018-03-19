@@ -3,8 +3,11 @@
 
 The group submitted a research proposal for investigating UC Davis VoIP security vulnerabilities and also a literature review of VoIP security vulnerabilities.
 
- The group co-ordinated with the Technical Director Mark Redican to order and set-up 6 Cisco Phones and established a test environment in the Security Lab at the Watershed Resources Building. Further, the group co-ordinated with the instructor to order a Netgear switch so that the phones could be connected to one NAM.
+ The group co-ordinated with the Technical Director to order and set-up 6 Cisco Phones (only 2 used for initial set-up) and established a test environment in the Security Lab at the Watershed Resources Building. Further, the group co-ordinated with the instructor to order a Netgear switch so that the phones could be connected to  just one NAM.
  
- The group was able to set-up the phones and switch with the help of the Technical Director. The group further required IET's assistance in solving the Internet Connection Issues. 
- The next step was to install wireshark and sniff packets. The group was able to sniff packets by port mirroring. This effectively is converting a switch to a hub. Detected 
+ The group was able to set-up the phones and the switch with the help of the Technical Director. The group was able to install Wireshark (a program to capture network packets) and sniff VoIP packets on a test computer. The group was able to sniff packets directed to and from the phone cables by port mirroring. This process effectively converts the switch to a hub. 
+ 
+ The group was able to identify and detect the VoIP SIP packets directed to and from the phones, but contrary to the group's and Technical Director's expectations the SIP packets were encrypted and were displayed as TLS 1.2 packets. The group was also able to detect the RTP packets carrying voice data, which were displayed as unencrypted UDP datagrams. Finally, the group also identified certificate/key exchange between a central server and the phones when the phones booted up.
+ 
+ 
  
