@@ -4,8 +4,11 @@ The group encountered several impediments in the course of the project:
 
 \begin{itemize}
 
-\item {Connecting the switch to NAM}:
-\item {Configuring 802.1q tagging on the switch}:
-\item {Configuring Internet Access in Lab}:
+\item \textbf{Connecting the switch to NAM}: We encountered two problems while connecting the uplink cable from the switch to the NAM port in the wall. One of the NAM's was not configured properly, and the one that was configured for usage caused the switch to recycle power when connected to the Power Over Ethernet port on the switch. We and our Technical Director were eventually able to resolve the problem by communicating with the appropriate IET channel, and by trial and experiment.
+
+\item \textbf{Configuring 802.1q tagging on the switch}: The next problem we faced was with configuring the switch settings so that 802.1 tagging was enabled for the VLAN with ID 200 (the VoIP VLAN). We initially wanted to configure the switch settings through a console cable, but upon reading the switch manual, we concluded that the switch could only be configured through the switch software that came with it. We installed a fresh copy of windows on our test computer and were able to install the switch software. After trial and error, we eventually configured some ports on the switch to support 802.1q tagging.
+
+
+\item \textbf{Configuring Internet Access in Lab}: After, we had set-up the switch and the phones, our next step was to install Wireshark, a network sniffer program. But unfortunately, we had no Internet connection on our test computer. IET helped us register our PC and provided us an IP address. However, the IP address provided to us was diagonsed as a duplicate address by the Networking Interface on our computer. After, a physical visit by an IET technician, the issue was conceded and we were provided a new IP address, and finally a working Internet connection. 
 
 \end{itemize}
