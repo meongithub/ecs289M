@@ -1,0 +1,41 @@
+\documentclass[letterpaper,twocolumn,10pt]{article}
+\usepackage[margin=.95in]{geometry}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{xstring}
+\usepackage{tikz}
+\usepackage{hyperref} 
+\usetikzlibrary{fit, calc}
+\pagestyle{empty} 
+
+
+
+\sloppy
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+\begin{document}
+
+\title{ Literature Review of Voice-over-IP Security Vulnerabiltiies}
+  \date{ \today }
+  \author{Ibrahim Ahmed, Abdulhai Naqvi, Ayush Jain, and Dixit Paudel\\
+  The University of California, Davis\\
+  \{ibahmed, abdulhainaqvi, jain, meondav\}@ucdavis.edu}
+
+\maketitle
+
+\input{background.tex}
+\input{intro.tex}
+\input {env.tex}
+\input{relatedwork.tex}
+
+
+
+\appendix
+\bibliographystyle{abbrv}
+\bibliography{mybib}
+\end{document}
